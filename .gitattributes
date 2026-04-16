@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Treat package files as binary
+*.pkg.tar.zst binary
+*.pkg.tar.zst.sig binary
